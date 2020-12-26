@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoogleSpeechActivity">
+
+    <Button
+        android:id="@+id/btn_speechToText"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/speech_to_text" />
+
+    <TextView
+        android:id="@+id/tv_textSpeech"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_murojaah_will_apear_here"
+        android:layout_below="@+id/btn_speechToText" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_below="@+id/tv_textSpeech"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+</RelativeLayout>

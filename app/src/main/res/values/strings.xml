@@ -3,6 +3,9 @@
     <string name="surah_number">No</string>
     <string name="surah_name">Surah Name</string>
     <string name="surah_jlhAyat">Jumlah Ayat</string>
+    <string name="speech_to_text">Speech to Text</string>
+    <string name="your_murojaah_will_apear_here">Your muroja\'ah will apear here</string>
+    <string name="next">next</string>
 
     <string-array name="data_surahNumber">
         <item>1</item>

@@ -1,5 +1,6 @@
 package com.alimmanurung.belajarrecyclerview
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -89,5 +90,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun showSelectedSurah(surah: Surah) {
         Toast.makeText(this, "Kamu memilih ${surah.nameSurah}", Toast.LENGTH_SHORT).show()
+        val googleSpeechIntent = Intent(this@MainActivity, GoogleSpeechActivity::class.java)
+//        googleSpeechIntent.putExtra(googleSpeechIntent.EXTRA_AYAT, surah)
+        startActivity(googleSpeechIntent)
     }
 }
