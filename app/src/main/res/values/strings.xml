@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BelajarRecyclerView</string>
+    <string name="surah_number">No</string>
+    <string name="surah_name">Surah Name</string>
+    <string name="surah_jlhAyat">Jumlah Ayat</string>
+
+    <string-array name="data_surahNumber">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="data_surahName">
+        <item>Al Fatihah</item>
+        <item>Al Baqarah</item>
+        <item>Ali Imran</item>
+    </string-array>
+
+    <string-array name="data_jlhAyat">
+        <item>7 Ayat</item>
+        <item>286 Ayat</item>
+        <item>200 Ayat</item>
+    </string-array>
+</resources>
