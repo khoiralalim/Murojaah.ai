@@ -9,24 +9,23 @@ import android.speech.SpeechRecognizer
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.alimmanurung.belajarrecyclerview.databinding.ActivityGoogleSpeechBinding
+import com.alimmanurung.belajarrecyclerview.databinding.ActivityAyat5Binding
 import java.util.*
 
-class GoogleSpeechActivity : AppCompatActivity() {
+class Ayat5Activity : AppCompatActivity() {
     private val RQ_SPEECH_REC = 102
-    private var title = "Murojaah Practice"
+    private var title = "Murojaah Practice Ayat 5"
 
-    private lateinit var binding: ActivityGoogleSpeechBinding
+    private lateinit var binding: ActivityAyat5Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityGoogleSpeechBinding.inflate(layoutInflater)
+        binding = ActivityAyat5Binding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
         setActionBarTitle(title)
 
-        binding.btnSpeechToText.setOnClickListener{
+        binding.btnSpeechToText.setOnClickListener {
             askSpeechInput()
         }
     }
@@ -39,18 +38,18 @@ class GoogleSpeechActivity : AppCompatActivity() {
             val result = data?.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)
             val hasil = result?.get(0).toString().toLowerCase()
             binding.tvTextSpeech.text = result?.get(0).toString()
-            if (hasil == "bismillahirohmanirohim"){
+            if (hasil == "iyyaka na'budu wa iyyaka nasta'in"){
                 binding.tvTextSpeech.text = "Benar"
-                binding.btnNext.visibility = View.VISIBLE
-                binding.btnNext.setOnClickListener {
+                binding.btnNextToAyat6.visibility = View.VISIBLE
+                binding.btnNextToAyat6.setOnClickListener {
 //                    getNextAyat()
-                    val nextAyatIntent = Intent(this@GoogleSpeechActivity, Ayat2Activity::class.java)
+                    val nextAyatIntent = Intent(this@Ayat5Activity, Ayat6Activity::class.java)
                     startActivity(nextAyatIntent)
                 }
             }
             else {
                 binding.tvTextSpeech.text = "Belum Tepat, Silahkan Dicoba Lagi"
-                binding.btnNext.visibility = View.INVISIBLE
+                binding.btnNextToAyat6.visibility = View.INVISIBLE
             }
         }
     }

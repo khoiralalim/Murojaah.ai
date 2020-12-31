@@ -10,9 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.BelajarRecyclerView">
-        <activity android:name=".GoogleSpeechActivity"></activity>
+        android:theme="@style/Theme.BelajarRecyclerView"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Ayat7Activity"></activity>
+        <activity android:name=".Ayat6Activity" />
+        <activity android:name=".Ayat5Activity" />
+        <activity android:name=".Ayat4Activity" />
+        <activity android:name=".Ayat3Activity" />
+        <activity android:name=".Ayat2Activity" />
+        <activity android:name=".GoogleSpeechActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
