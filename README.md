@@ -1,5 +1,5 @@
-# Murojaah.ai
-Project aplikasi murojaah berbasis android menggunakan google speech api (AI/Artificial Intelligence) dilengkapi dengan algoritma rabin karp (string matching)
+# Murojaah.ai Apps
+Project aplikasi murojaah berbasis android mengimplementasikan google speech api (AI/Artificial Intelligence) dilengkapi dengan algoritma rabin karp (string matching)
 
 Preview App
 
