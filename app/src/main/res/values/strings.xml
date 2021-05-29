@@ -1,27 +1,1180 @@
 <resources>
-    <string name="app_name">BelajarRecyclerView</string>
+    <string name="app_name">MurojaahQu.ai</string>
     <string name="surah_number">No</string>
     <string name="surah_name">Surah Name</string>
     <string name="surah_jlhAyat">Jumlah Ayat</string>
-    <string name="speech_to_text">Speech to Text</string>
-    <string name="your_murojaah_will_apear_here">Your muroja\'ah will apear here</string>
-    <string name="next">next</string>
+    <string name="speech_to_text">Murojaah Now</string>
+    <string name="your_murojaah_will_apear_here">Your muroja\'ah status will apear here</string>
+    <string name="next">Next</string>
+    <string name="Similarity">Similarity %</string>
 
     <string-array name="data_surahNumber">
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
     </string-array>
 
     <string-array name="data_surahName">
         <item>Al Fatihah</item>
         <item>Al Baqarah</item>
         <item>Ali Imran</item>
+        <item>An Nisa</item>
+        <item>Al Maidah</item>
+        <item>Al Anam</item>
+        <item>Al Araf</item>
+        <item>Al Anfal</item>
+        <item>At Taubah</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Ar Rad</item>
+        <item>Ibrahim</item>
+        <item>Al Hijr</item>
+        <item>An Nahl</item>
+        <item>Al Isra</item>
+        <item>Al Kahf</item>
+        <item>Maryam</item>
+        <item>Taha</item>
+        <item>Al Anbiya</item>
+        <item>Al Hajj</item>
+        <item>Al Muminun</item>
+        <item>An Nur</item>
+        <item>Al Furqan</item>
+        <item>Asy Syuara</item>
+        <item>An Naml</item>
+        <item>Al Qasas</item>
+        <item>Al Ankabut</item>
+        <item>Ar Rum</item>
+        <item>Luqman</item>
+        <item>As Sajdah</item>
+        <item>Al Ahzab</item>
+        <item>Saba</item>
+        <item>Fatir</item>
+        <item>Yasin</item>
+        <item>As Saffat</item>
+        <item>Sad</item>
+        <item>Az Zumar</item>
+        <item>Gafir</item>
+        <item>Fussilat</item>
+        <item>Asy Syura</item>
+        <item>Az Zukhruf</item>
+        <item>Ad Dukhan</item>
+        <item>Al Jasiyah</item>
+        <item>Al Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al Fath</item>
+        <item>Al Hujurat</item>
+        <item>Qaf</item>
+        <item>Az Zariyat</item>
+        <item>At Tur</item>
+        <item>An Najm</item>
+        <item>Al Qamar</item>
+        <item>Ar Rahman</item>
+        <item>Al Waqiah</item>
+        <item>Al Hadid</item>
+        <item>Al Mujadalah</item>
+        <item>Al Hasyr</item>
+        <item>Al Mumtahanah</item>
+        <item>As Saff</item>
+        <item>Al Jumuah</item>
+        <item>Al Munafiqun</item>
+        <item>At Tagabun</item>
+        <item>At Talaq</item>
+        <item>At Tahrim</item>
+        <item>Al Mulk</item>
+        <item>Al Qalam</item>
+        <item>Al Haqqah</item>
+        <item>Al Maarij</item>
+        <item>Nuh</item>
+        <item>Al Jinn</item>
+        <item>Al Muzzammil</item>
+        <item>Al Muddassir</item>
+        <item>Al Qiyamah</item>
+        <item>Al Insan</item>
+        <item>Al Mursalat</item>
+        <item>An Naba</item>
+        <item>An Naziat</item>
+        <item>Abasa</item>
+        <item>At Takwir</item>
+        <item>Al Infitar</item>
+        <item>Al Mutaffifin</item>
+        <item>Al Insyiqaq</item>
+        <item>Al Buruj</item>
+        <item>At Tariq</item>
+        <item>Al Ala</item>
+        <item>Al Gasyiyah</item>
+        <item>Al Fajr</item>
+        <item>Al Balad</item>
+        <item>Asy Syams</item>
+        <item>Al Lail</item>
+        <item>Ad Duha</item>
+        <item>Asy Syarh</item>
+        <item>At Tin</item>
+        <item>Al Alaq</item>
+        <item>Al Qadr</item>
+        <item>Al Bayyinah</item>
+        <item>Az Zalzalah</item>
+        <item>Al Adiyat</item>
+        <item>Al Qariah</item>
+        <item>At Takasur</item>
+        <item>Al Asr</item>
+        <item>Al Humazah</item>
+        <item>Al Fil</item>
+        <item>Quraisy</item>
+        <item>Al Maun</item>
+        <item>Al Kausar</item>
+        <item>Al Kafirun</item>
+        <item>An Nasr</item>
+        <item>Al Lahab</item>
+        <item>Al Ikhlas</item>
+        <item>Al Falaq</item>
+        <item>An Nas</item>
     </string-array>
 
     <string-array name="data_jlhAyat">
         <item>7 Ayat</item>
         <item>286 Ayat</item>
         <item>200 Ayat</item>
+        <item>176 Ayat</item>
+        <item>120 Ayat</item>
+        <item>165 Ayat</item>
+        <item>206 Ayat</item>
+        <item>75 Ayat</item>
+        <item>129 Ayat</item>
+        <item>109 Ayat</item>
+        <item>123 Ayat</item>
+        <item>111 Ayat</item>
+        <item>43 Ayat</item>
+        <item>52 Ayat</item>
+        <item>99 Ayat</item>
+        <item>128 Ayat</item>
+        <item>111 Ayat</item>
+        <item>110 Ayat</item>
+        <item>98 Ayat</item>
+        <item>135 Ayat</item>
+        <item>112 Ayat</item>
+        <item>78 Ayat</item>
+        <item>118 Ayat</item>
+        <item>64 Ayat</item>
+        <item>77 Ayat</item>
+        <item>227 Ayat</item>
+        <item>93 Ayat</item>
+        <item>88 Ayat</item>
+        <item>69 Ayat</item>
+        <item>60 Ayat</item>
+        <item>34 Ayat</item>
+        <item>30 Ayat</item>
+        <item>73 Ayat</item>
+        <item>54 Ayat</item>
+        <item>45 Ayat</item>
+        <item>83 Ayat</item>
+        <item>182 Ayat</item>
+        <item>88 Ayat</item>
+        <item>75 Ayat</item>
+        <item>85 Ayat</item>
+        <item>54 Ayat</item>
+        <item>53 Ayat</item>
+        <item>89 Ayat</item>
+        <item>59 Ayat</item>
+        <item>37 Ayat</item>
+        <item>35 Ayat</item>
+        <item>38 Ayat</item>
+        <item>29 Ayat</item>
+        <item>18 Ayat</item>
+        <item>45 Ayat</item>
+        <item>60 Ayat</item>
+        <item>49 Ayat</item>
+        <item>62 Ayat</item>
+        <item>55 Ayat</item>
+        <item>78 Ayat</item>
+        <item>96 Ayat</item>
+        <item>29 Ayat</item>
+        <item>22 Ayat</item>
+        <item>24 Ayat</item>
+        <item>13 Ayat</item>
+        <item>14 Ayat</item>
+        <item>11 Ayat</item>
+        <item>11 Ayat</item>
+        <item>18 Ayat</item>
+        <item>12 Ayat</item>
+        <item>12 Ayat</item>
+        <item>30 Ayat</item>
+        <item>52 Ayat</item>
+        <item>52 Ayat</item>
+        <item>44 Ayat</item>
+        <item>28 Ayat</item>
+        <item>28 Ayat</item>
+        <item>20 Ayat</item>
+        <item>56 Ayat</item>
+        <item>40 Ayat</item>
+        <item>31 Ayat</item>
+        <item>50 Ayat</item>
+        <item>40 Ayat</item>
+        <item>46 Ayat</item>
+        <item>42 Ayat</item>
+        <item>29 Ayat</item>
+        <item>19 Ayat</item>
+        <item>36 Ayat</item>
+        <item>25 Ayat</item>
+        <item>22 Ayat</item>
+        <item>17 Ayat</item>
+        <item>19 Ayat</item>
+        <item>26 Ayat</item>
+        <item>30 Ayat</item>
+        <item>20 Ayat</item>
+        <item>15 Ayat</item>
+        <item>21 Ayat</item>
+        <item>11 Ayat</item>
+        <item>8 Ayat</item>
+        <item>8 Ayat</item>
+        <item>19 Ayat</item>
+        <item>5 Ayat</item>
+        <item>8 Ayat</item>
+        <item>8 Ayat</item>
+        <item>11 Ayat</item>
+        <item>11 Ayat</item>
+        <item>8 Ayat</item>
+        <item>3 Ayat</item>
+        <item>9 Ayat</item>
+        <item>5 Ayat</item>
+        <item>4 Ayat</item>
+        <item>7 Ayat</item>
+        <item>3 Ayat</item>
+        <item>6 Ayat</item>
+        <item>3 Ayat</item>
+        <item>5 Ayat</item>
+        <item>4 Ayat</item>
+        <item>5 Ayat</item>
+        <item>6 Ayat</item>
+    </string-array>
+
+    <string-array name="data_ayat1">
+        <item>bismillahirohmanirohim</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>aroaitalladzi yukadzibu biddin</item>
+        <item>inna a\'toina kalkausar</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>qul huwallahu ahad</item>
+        <item>qul a\'udzu birabbil falaq</item>
+        <item>qul a\'udzu birabbinnas</item>
+    </string-array>
+
+    <string-array name="data_ayat2">
+        <item>alhamdulillahirobbilalamin</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>fadzalikal ladzii yadu\'ul yatim</item>
+        <item>fasholli lirobbika wanhar</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>allahu somad</item>
+        <item>min syarri maa kholaq</item>
+        <item>malikinnas</item>
+    </string-array>
+
+    <string-array name="data_ayat3">
+        <item>arrohmanirrohim</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>wala yahudu ala toa mil miskin</item>
+        <item>inna syaniaka huwal abtar</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>lam yalid walam yulad</item>
+        <item>wa min syarri ghosiqin idza waqob</item>
+        <item>ilahinas</item>
+    </string-array>
+
+    <string-array name="data_ayat4">
+        <item>maliki yaumiddin</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>fawailul lil mushollin</item>
+        <item>NULL</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>walam yakullahu kufuwan ahad</item>
+        <item>wa min syarrin nafasati fil uqod</item>
+        <item>min syarril waswasil khannas</item>
+    </string-array>
+
+    <string-array name="data_ayat5">
+        <item>iyyaka na\'budu wa iyyaka nasta\'in</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>allazinahum an shalatihim sahun</item>
+        <item>NULL</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>NULL</item>
+        <item>wa min syarri hasidin idza hasad</item>
+        <item>alladzi yuwaswisu fi sudurinnas</item>
+    </string-array>
+
+    <string-array name="data_ayat6">
+        <item>ihdinas sirotol mustaqim</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>alladzinahum yuroun</item>
+        <item>NULL</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>minal jinnati wannas</item>
+    </string-array>
+
+    <string-array name="data_ayat7">
+        <item>sirotol ladzina an amta alaihim ghairil maghdubi alaihim waladholin</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>wayam naunal ma\'un</item>
+        <item>NULL</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
     </string-array>
 </resources>
